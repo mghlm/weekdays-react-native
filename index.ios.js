@@ -2,6 +2,8 @@
 import React, { Component } from 'react';
 import {View, Text, AppRegistry, StyleSheet } from 'react-native';
 
+var DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+
 // Create a react component
 var Weekdays = React.createClass({
   render: function() {
