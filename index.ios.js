@@ -1,6 +1,7 @@
 // Import
 import React, { Component } from 'react';
 import {View, Text, AppRegistry, StyleSheet } from 'react-native';
+import DayItem from './src/day-item';
 
 var DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
@@ -11,7 +12,14 @@ var Weekdays = React.createClass({
       <Text>
         Days of the week:
       </Text>
+      {this.days()}
     </View>
+  },
+  days: function() {
+    return DAYS.map(function(day){
+      // Called 7 times once for each day of the week
+      return <DayItem day={day} />
+    });
   }
 });
 
