@@ -1,1 +1,7 @@
-Weekdays, an iOS app that shows the week's days. Build with React Native. 
+# Weekday
+
+##### A native iOS application that shows you the current day.
+
+![alt text](http://i.imgur.com/kLv5WZn.png)
+
+###### Built with React Native.
